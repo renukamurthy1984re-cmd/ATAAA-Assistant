@@ -2,3 +2,4 @@ streamlit
 Pillow
 gTTS
 google-genai
+pypdf
