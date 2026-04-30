@@ -20,7 +20,7 @@ import ast
 
 # --- 1. THE BRAIN ---
 client = genai.Client(
-    api_key='AIzaSyB6r79LJZNwCiIbac_Q0ywfqcrmzMF5Bjg',
+    api_key=st.secrets["GOOGLE_API_KEY"],
     http_options=types.HttpOptions(
         retry_options=types.HttpRetryOptions(
             attempts=5,             # Try up to 5 times
