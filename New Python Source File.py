@@ -32,7 +32,7 @@ client = genai.Client(
 )
 
 # --- 2. APP CONFIG ---
-st.set_page_config(page_title="ATAA - AI Study Assistant", layout="wide")
+st.set_page_config(page_title="ATAAA-AI (All Time Anything Anywhere Assistant)", layout="wide")
 
 IMAGE_URL = "https://github.com/rajamkumar20082006-blip/ATAA-Hub-Pro/blob/main/RG.jpg?raw=true"
 BHEEM_SONG = "https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=Chhota+Bheem+Theme&filename=24/244337-43400a42-7067-4e0d-8b0d-77341e975765.mp3"
