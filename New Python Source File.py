@@ -20,13 +20,7 @@ from PIL import Image
 import ast
 
 # --- 1. THE BRAIN --
-components.html(
-    """
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9092450766017813"
-     crossorigin="anonymous"></script>
-    """,
-    height=0,
-)
+<meta name="google-adsense-account" content="ca-pub-9092450766017813">
 
 client = genai.Client(
     api_key=st.secrets["GOOGLE_API_KEY"],
