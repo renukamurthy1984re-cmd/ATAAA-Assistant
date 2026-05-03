@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*
-components.html(
-    """
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9092450766017813"
-     crossorigin="anonymous"></script>
-    """,
-    height=0,
-)
+
 import streamlit as st
 from gtts import gTTS
 import base64
@@ -26,6 +20,13 @@ from PIL import Image
 import ast
 
 # --- 1. THE BRAIN --
+components.html(
+    """
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9092450766017813"
+     crossorigin="anonymous"></script>
+    """,
+    height=0,
+)
 
 client = genai.Client(
     api_key=st.secrets["GOOGLE_API_KEY"],
