@@ -20,15 +20,7 @@ from PIL import Image
 import ast
 
 # --- 1. THE BRAIN --
-# --- ADSENSE META VERIFICATION ---
-st.markdown(
-    """
-    <head>
-        <meta name="google-adsense-account" content="ca-pub-9092450766017813">
-    </head>
-    """,
-    unsafe_allow_html=True
-)
+
 
 client = genai.Client(
     api_key=st.secrets["GOOGLE_API_KEY"],
